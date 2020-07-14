@@ -1,0 +1,23 @@
+.gallery-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-group .gallery-group-wrapper {
+    margin: .6rem .8rem;
+    overflow: hidden;
+}
+
+.gallery-group .gallery-group-wrapper img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    transform: scale(1) rotate(0);
+    transition: .3s;
+}
+
+.gallery-group .gallery-group-wrapper img:hover {
+    transform: scale(1.2) rotate(7deg);
+    transition: .3s;
+}

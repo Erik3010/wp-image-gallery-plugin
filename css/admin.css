@@ -1,0 +1,41 @@
+.preview-group {
+    border-bottom: 1px solid #dadada;
+    padding: 1rem 0;
+}
+
+.preview-group:first-child {
+    padding-top: 0;
+}
+
+.preview-group:last-child {
+    padding-bottom: 0;
+    border: none;
+}
+
+.preview-link {
+    margin-bottom: .8rem;
+}
+
+.preview-link label {
+    margin-right: 20px;
+}
+
+.image-show {
+    max-width: 250px;
+    position: relative;
+}
+
+.image-show img {
+    width: 100%;
+}
+
+.image-show span.dashicons.dashicons-no-alt {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    background: #23282d;
+    border-radius: 50%;
+    color: #e44b18;
+    padding: 2px;
+    cursor: pointer;
+}
